@@ -1,0 +1,30 @@
+header{
+	z-index: 5; 	top: 5px;
+	position: fixed;  width: 90%; height: 7%;
+	display: flex; justify-content: space-between; 
+	background:rgba(0, 0, 0, 0.6);		border-radius: 50px;
+	margin-left: 4.7%;
+}
+.logo{
+	height: 100%;	width: 90px;
+
+	border-radius: 50px;
+	background-color: var(--text-color);
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav a{
+	line-height: 100%;
+	padding:0 15px;
+	font-size: 1.3em;
+	font-weight: 500;
+	transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+nav a:hover{
+	color: #000000;
+	box-shadow: inset 100px 0 0 0 #fbe000;
+}

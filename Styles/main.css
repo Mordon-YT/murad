@@ -1,0 +1,46 @@
+@import url("vars.css");
+@import url("header.css");
+@import url("skills.css");
+.maingrid{
+	display: grid;
+	grid-template-areas:
+		" editing gap coding "
+		" editing gap coding"
+		" editing gap coding";
+	grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+	scroll-behavior: smooth;
+	background-image: url("../images/jake.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+main{
+	z-index: 1;
+	background:rgba(0, 0, 0, 0.6);
+	margin: 7% 10px;
+	border-radius: 50px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

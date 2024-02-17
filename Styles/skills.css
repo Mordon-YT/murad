@@ -1,0 +1,8 @@
+#editing{
+    background-color: red;
+    grid-area: editing;
+}
+#coding{
+    background-color: green;
+    grid-area: coding;
+}
